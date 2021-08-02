@@ -1,2 +1,2 @@
 # QBoards
-This is an app which I am making that will be about creating boards where notes and widgets and stuff can be kept.
+This app will be used for creating boards and widgets which can be put together to help people digest notes in a more memorable way rather than just reading them.

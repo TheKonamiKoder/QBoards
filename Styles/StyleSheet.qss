@@ -1,0 +1,44 @@
+QMenuBar {
+	background-color: #232323;
+	spacing: 0px;
+}
+
+QMenuBar::item {
+    padding: 1px 4px;
+    background: transparent;
+}
+
+QMenuBar::item:selected { /* when selected using mouse or keyboard */
+    background: #A8A8A8;
+}
+
+QMenuBar::item:pressed {
+    background: #888888;
+}
+
+
+QMenu {
+    background-color: #232323;
+    border: 2px solid #0C0C0C;
+    border-radius: 4px;
+}
+
+QMenu::item {
+    background-color: transparent;
+    text-align: centre;
+}
+
+QMenu::item:selected {
+    background-color: #A8A8A8;
+}
+
+QMenu::separator {
+    height: 2px;
+    background: #0C0C0C;
+}
+
+QMainWindow::separator {
+    background: #0C0C0C;
+    width: 3px; /* when vertical */
+    height: 3px; /* when horizontal */
+}
